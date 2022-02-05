@@ -313,8 +313,8 @@ function testElse(val) {
   }
 
   
-  // Only change code above  this line
-  return result;
+  // Only change code above  this  line
+  return result; 
 }
 
 testElse(4);
