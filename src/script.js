@@ -23,3 +23,4 @@ console.log(5%2);
 console.log(f+=5);
 console.log(f-=2);
 console.log(f*=2);
+console.log(f/=2);
