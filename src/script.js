@@ -35,3 +35,7 @@ const myStr = "This is the start."+ " This is the end."; // Change this line
 // Only change code below this line
 const myName = "Arya";
 const myStr = "My name is "+ myName+ "and I am well!";
+// Change code below this line
+const someAdjective = "arya";
+let myStr = "Learning to code is ";
+myStr+=someAdjective;
