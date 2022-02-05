@@ -10,3 +10,4 @@ let e=1; /*can't be changed*/
 var f=1;
 var f=0;
 const k=1;
+console.log(1 +3);
