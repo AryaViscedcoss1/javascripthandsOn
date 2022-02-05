@@ -16,6 +16,7 @@ console.log(5-4);
 console.log(8*4);
 console.log(8/4);
 console.log(f++);
+
 console.log(b--);
 console.log(1.5 * 1.4);
 console.log(1.5 / 1.4);
@@ -26,7 +27,7 @@ console.log(f*=2);
 console.log(f/=2);
 const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';//Quoting Strings with Single Quotes
-//Concatenating Strings with the Plus Equals Operator
+//Concatenating Strings with the Plus Equals  Operator
 let myStr="This is the first sentence.";
 myStr=" This is the second sentence.";
 //Concatenating Strings with Plus Operator
