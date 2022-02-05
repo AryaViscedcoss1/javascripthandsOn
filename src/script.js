@@ -9,3 +9,4 @@ console.log(v.id,V.id)
 let e=1; /*can't be changed*/
 var f=1;
 var f=0;
+const k=1;
