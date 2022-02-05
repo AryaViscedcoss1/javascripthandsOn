@@ -36,6 +36,7 @@ const myStr = "This is the start."+ " This is the end."; // Change this line
 const myName = "Arya";
 const myStr = "My name is "+ myName+ "and I am well!";
 // Change code below this line
+
 const someAdjective = "arya";
 let myStr = "Learning to code is ";
 myStr+=someAdjective;
@@ -45,3 +46,10 @@ const lastName = "Lovelace";
 
 // Only change code below this line
 lastNameLength = lastName.length;
+//Use Bracket Notation to Find the First Character in a String
+// Setup
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0]; // Change this line
