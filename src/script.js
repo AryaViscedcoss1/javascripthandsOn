@@ -13,3 +13,4 @@ const k=1;
 console.log(1 +3);
 console.log(5-4);
 console.log(8*4);
+console.log(8/4);
