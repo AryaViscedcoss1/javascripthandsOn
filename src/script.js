@@ -309,7 +309,7 @@ function testElse(val) {
   }
 
   else{
-    result = "5  or Smaller";
+    result = "5   or Smaller";
   }
 
    
