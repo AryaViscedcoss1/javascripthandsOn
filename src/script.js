@@ -32,3 +32,6 @@ let myStr="This is the first sentence.";
 myStr=" This is the second sentence.";
 //Concatenating Strings with Plus  Operator
 const myStr = "This is the start."+ " This is the end."; // Change this line
+// Only change code below this line
+const myName = "Arya";
+const myStr = "My name is "+ myName+ "and I am well!";
