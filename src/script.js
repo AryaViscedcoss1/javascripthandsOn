@@ -305,7 +305,7 @@ function testElse(val) {
   // Only change code below this line
 
   if (val > 5) {
-    result = "Bigger than 5";
+    result = "Bigger  than 5";
   }
 
   else{
