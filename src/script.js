@@ -17,3 +17,4 @@ console.log(8*4);
 console.log(8/4);
 console.log(f++);
 console.log(b--);
+console.log(1.5 * 1.4);
