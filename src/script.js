@@ -20,3 +20,4 @@ console.log(b--);
 console.log(1.5 * 1.4);
 console.log(1.5 / 1.4);
 console.log(5%2);
+console.log(f+=5);
