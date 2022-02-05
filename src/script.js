@@ -1,6 +1,6 @@
 /* before and */
 let a=1;
-var b= 1+2;
+var b= 5;
 var myVar = 0;
 let s="string";
 var v;
@@ -15,3 +15,4 @@ console.log(5-4);
 console.log(8*4);
 console.log(8/4);
 console.log(f++);
+console.log(b--);
