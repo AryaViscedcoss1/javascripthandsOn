@@ -24,3 +24,4 @@ console.log(f+=5);
 console.log(f-=2);
 console.log(f*=2);
 console.log(f/=2);
+const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
