@@ -120,7 +120,7 @@ const myArray = [["John", 23], ["dog", 3]];
 myArray.shift();
 
 // Only change code below this line
-myArray.unshift("["Paul", 35]")
+myArray.unshift(["Paul", 35])
 const myList = [["s",1],["d",2],["f",33],["h",4],["m",5]];
 function reusableFunction()
 {
@@ -309,7 +309,7 @@ function testElse(val) {
   }
 
   else{
-    result = "5 or Smaller";
+    result = " 5 or Smaller";
   }
 
    
@@ -318,3 +318,95 @@ function testElse(val) {
 }
 
 testElse(4);
+
+
+
+//Multiple Identical Options in Switch Statements
+
+function sequentialSizes(val) {
+  let answer = "";
+  // Only change code below this line
+  switch(val)
+  {
+    case 1:
+    answer="Low";
+    break;
+    case 2:
+    answer="Low";
+    break;
+    case 3:
+    answer="Low";
+    break;
+
+    case 4:
+    answer="Mid";
+    break;
+    case 5:
+    answer="Mid";
+    break;
+    case 6:
+    answer="Mid";
+    break;
+
+    case 7:
+    answer="High"
+    break;
+    case 8:
+    answer="High"
+    break;
+    case 9:
+    answer="High"
+    break;
+  }
+
+  // Only change code above this line
+  return answer;
+}
+
+sequentialSizes(1);
+
+
+//Replacing If Else Chains with Switch
+
+function chainToSwitch(val) {
+  let answer = "";
+  // Only change code below this line
+  switch(val)
+  {
+  case "bob":
+    answer = "Marley";
+    break;
+  case 42 :
+    answer = "The Answer";
+    break;
+  case 1 :
+    answer = "There is no #1";
+    break;
+  case 99:
+    answer = "Missed me by this much!";
+    break;
+  case 7 :
+    answer = "Ate Nine";
+    break;
+  }
+
+  // Only change code above this line
+  return answer;
+}
+
+chainToSwitch(7);
+
+
+//Returning Boolean Values from Functions
+
+
+function isLess(a, b) {
+  // Only change code below this line
+    return a<b;
+  // Only change code above this line
+}
+
+isLess(10, 15);
+
+
+//Return Early Pattern for Functions
