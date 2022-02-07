@@ -409,4 +409,14 @@ function isLess(a, b) {
 isLess(10, 15);
 
 
-//Return Early Pattern for Functions
+//Build JavaScript Objects
+
+const myDog = {
+  // Only change code below this line
+    name: "Ford",
+  legs: 4,
+  tails:1,
+  friends: []
+
+  // Only change code above this line
+};
